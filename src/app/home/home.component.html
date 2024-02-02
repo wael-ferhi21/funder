@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="navbar">
+        <h2 class="title">FUNDER</h2> 
+        <div class="icons">
+            <ul><mat-icon>help</mat-icon></ul>
+            <ul><mat-icon>mail_outline</mat-icon></ul>
+            <ul><mat-icon>notifications_active</mat-icon></ul>
+            <ul><mat-icon>person_pin</mat-icon></ul>
+        </div>
+    </div>
+    <div class="intro">
+        <div class="row">
+            <h1>Mes Projets</h1>
+        </div>
+        <div class="row">
+            <h5>Vous n'avez pas encore de projets. Créez-en un pour commencer.</h5>
+        </div>
+    </div>
+    <button class="add-btn" (click)="toggleModal()">
+        <mat-icon>add</mat-icon>
+    </button>
+
+    <div class="col-sm-6">
+      <div id="myModal" class="modal" [style.display]="modalVisible ? 'block' : 'none'">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Nouveau Projet</h5>
+              <button type="button" class="btn-close" aria-label="Close" (click)="toggleModal()"></button>
+            </div>
+            <div class="modal-body">
+            <input type="text" placeholder="Dénominisation social du projet">
+            <img src="https://img.freepik.com/vecteurs-libre/concept-calendrier-taches-personnes-prenant-notes_107791-15370.jpg?w=1060&t=st=1706787326~exp=1706787926~hmac=cdacab0be59938c78aeeec288b60703377fc83a31c7095ffbbf98c7a7618eca2" alt="">
+
+              <button class="ajout"> Ajouter </button>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+      
+</div>

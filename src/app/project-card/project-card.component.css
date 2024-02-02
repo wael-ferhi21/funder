@@ -1,0 +1,125 @@
+.card{
+    background-color: transparent;
+    
+    height: 280px;
+    border-radius: 3%;
+    border-color: transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+
+}
+.card-title{
+    font-family: "Public Sans", sans-serif;
+}
+.delete{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+    
+}
+svg{
+    width: 16px;
+    height: 20px;
+    margin-right: 8px 
+}
+.canvas{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.71429;
+    font-size: 0.8125rem;
+    text-transform: capitalize;
+    font-family: "Public Sans", sans-serif;
+    width: 30%;
+    padding: 3px 9px;
+    border-radius: 8px;
+    border: 1px solid rgba(33, 150, 243, 0.5);
+    color: rgb(33, 150, 243);
+    margin-left: 10px;
+}
+.bussiness{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.71429;
+    font-size: 0.8125rem;
+    text-transform: capitalize;
+    font-family: "Public Sans", sans-serif;
+    width: 50%;
+    padding: 3px 9px;
+    border-radius: 8px;
+    border: 1px solid rgba(33, 150, 243, 0.5);
+    color: rgb(33, 150, 243);
+    margin-right: 10px;
+}
+.card-title{
+    margin-top: 50px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.71429;
+    font-size: 0.8125rem;
+    text-transform: capitalize;
+    font-family: "Public Sans", sans-serif;
+    width: 40%;
+    padding: 3px 9px ;
+    border-radius: 8px;
+    background-color: #0096ff;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+
+}
+mat-progress-bar{
+    margin-top: 20px;
+  
+}
