@@ -6,6 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { CanvaCardComponent } from './canva-card/canva-card.component';
 import { CanvasComponent } from './canvas/canvas.component';
+import { BmcComponent } from './bmc/bmc.component';
+import { SteperComponent } from './steper/steper.component';
 
 const routes: Routes = [
   {path:'register',component:RegisterComponent},
@@ -14,7 +16,10 @@ const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'card',component:ProjectCardComponent},
   {path:'canva',component:CanvaCardComponent},
-  {path:'canvas',component:CanvasComponent}
+  {path:'canvas',component:CanvasComponent},
+  {path:'bmc',component:BmcComponent},
+  {path:'steps',component:SteperComponent}
+
 ];
 
 @NgModule({

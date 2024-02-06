@@ -11,6 +11,13 @@ import { HomeComponent } from './home/home.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { CanvasComponent } from './canvas/canvas.component';
 import { CanvaCardComponent } from './canva-card/canva-card.component';
+import { BmcComponent } from './bmc/bmc.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { SteperComponent } from './steper/steper.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import {MatStepperModule} from '@angular/material/stepper';
+
+
 
 @NgModule({
   declarations: [
@@ -20,14 +27,20 @@ import { CanvaCardComponent } from './canva-card/canva-card.component';
     HomeComponent,
     ProjectCardComponent,
     CanvasComponent,
-    CanvaCardComponent
+    CanvaCardComponent,
+    BmcComponent,
+    SteperComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatGridListModule,
+    MatStepperModule
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
